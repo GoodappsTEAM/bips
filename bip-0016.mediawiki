@@ -56,7 +56,7 @@ Signature operations in the {serialized script} shall contribute to the maximum 
 Examples:
 
 +3 signature operations:
-    {2 [pubkey1] [pubkey2] [pubkey3] 3 OP_CHECKMULTISIG}
+    {2 [02926173747da12aedcac4c9be73923570936944995e67992902836569de82d641] [044e21236e226546ec84192e047f6b91bb0e7ff5590f89775b084c2dd0247000e24fff35f8132093b82f4f4e4fc001303946b989028d60636ca68575ef386714bb] [0475bf207e3a94c0f229c4debabf6b215eedc1ee351acd3f7bac0c9d863c3b982acc3153da64be836e24147a5b1f6a6d0e804cebb7c9edbf840bd8cab856b8ad7b] 3 OP_CHECKMULTISIG}
 
 +22 signature operations
     {OP_CHECKSIG OP_IF OP_CHECKSIGVERIFY OP_ELSE OP_CHECKMULTISIGVERIFY OP_ENDIF}
